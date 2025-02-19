@@ -1,2 +1,3 @@
-# IEEE-VT_ops
-Code and project Outline
+# IEEE@VT OPS Program/ Outline
+
+## How to navigate this repo
