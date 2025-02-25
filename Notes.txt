@@ -1,3 +1,8 @@
-1. Changing the first project to not make it similar to the notes
+Meeting 02/26 - 6:30pm
+Goals- Get this program running after spring break! 2nd week of March 17 - 21
+Lab Replacement or All 4 Projects to get extra credit
 
+Keep track of names to those that come to OPS (Last Name, First Name, Professor)
+
+1. Changing the first project to not make it similar to the notes
 2. The green light and red light will change, some sort of LED, IR Sensor, print to the serial 
