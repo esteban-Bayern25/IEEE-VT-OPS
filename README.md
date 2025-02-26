@@ -1,18 +1,14 @@
 # IEEE@VT OPS Program/ Outline
 
-<<<<<<< HEAD
 ## How to navigate this repo
 
-# Project 1
-=======
-## Project 1
+### Project 1
 >>>>>>> 6d1a1f5df533b82f019d9c344aceb3d9a15a432a
 Goal: Change the frequency of siren using code.
 (talk about how a speaker).
 Extra: add button or photoresistor (to stop siren)
 
-<<<<<<< HEAD
-# Project 2
+### Project 2
 Goal: Using pot to change music on speaker. (Arduino file library music)
 Extra: led to tepo of music
 
