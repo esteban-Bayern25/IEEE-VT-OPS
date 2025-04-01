@@ -24,6 +24,7 @@ void loop() {
   // Step 1: Read IR Receiver value and subtract noise
   int raw_value = analogRead(IR_RECEIVER_PIN);
   int zeroed_value = raw_value - zero;
+  zeroed_value = max(zeroed_value, 0);
 
   // Step 2: Constrain the raw IR reading to ensure it's noise-adjusted
   int constrained_value = constrain(zeroed_value, 0, 1023);
