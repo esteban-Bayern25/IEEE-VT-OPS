@@ -17,7 +17,7 @@ void setup() {
   for (int i = 0; i < 100; i++) {
     zero += analogRead(IR_RECEIVER_PIN);
   }
-  zero = zero - 100;  // Calculate the average
+  zero = zero / 100;  // Calculate the average
 }
 
 void loop() {
