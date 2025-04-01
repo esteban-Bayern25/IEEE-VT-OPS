@@ -21,11 +21,12 @@ void setup() {
 }
 
 void loop() {
-  // Step 1: Read IR Receiver value
+  // Step 1: Read IR Receiver value and subtract noise
   int raw_value = analogRead(IR_RECEIVER_PIN);
+  int zeroed_value = raw_value - zero;
 
   // Step 2: Constrain the raw IR reading to ensure it's noise-adjusted
-  int constrained_value = constrain(raw_value, 0, 1023);
+  int constrained_value = constrain(zeroed_value, 0, 1023);
 
   // Step 3: Map the reading to an output value from 0 to 255 for LED brightness
   int brightness = 175 - map(constrained_value, 0, 1023, 30, 255);
